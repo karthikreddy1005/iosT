@@ -14,11 +14,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        // Create a new UIWindow instance and assign it to the window property
-        window = UIWindow(windowScene: windowScene)
+        
         
         // Set the rootViewController to the tab bar controller
-        window?.rootViewController = createTabBarController()
+        /// for tab bar view controller
+        //        window?.rootViewController = createTabBarController()
+        //        let newsViewController = NewsViewController()
+        //        window?.rootViewController = ApiViewController()
+        // Create a new UIWindow instance and assign it to the window property
+        window = UIWindow(windowScene: windowScene)
+        let searchVC = SearchViewController()
+        let newVC = UINavigationController(rootViewController: searchVC)
+        
+        window?.rootViewController = newVC
         
         // Make the window visible
         window?.makeKeyAndVisible()
