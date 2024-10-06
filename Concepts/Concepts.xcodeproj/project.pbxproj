@@ -16,6 +16,7 @@
 		C9F9E6F12CB0FD2100930A6E /* ConceptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6F02CB0FD2100930A6E /* ConceptsTests.swift */; };
 		C9F9E6FB2CB0FD2100930A6E /* ConceptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6FA2CB0FD2100930A6E /* ConceptsUITests.swift */; };
 		C9F9E6FD2CB0FD2100930A6E /* ConceptsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6FC2CB0FD2100930A6E /* ConceptsUITestsLaunchTests.swift */; };
+		C9F9E70A2CB2422800930A6E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E7092CB2422700930A6E /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C9F9E6F62CB0FD2100930A6E /* ConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9E6FA2CB0FD2100930A6E /* ConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptsUITests.swift; sourceTree = "<group>"; };
 		C9F9E6FC2CB0FD2100930A6E /* ConceptsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9F9E7092CB2422700930A6E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C9F9E6E22CB0FD2000930A6E /* Assets.xcassets */,
 				C9F9E6E42CB0FD2000930A6E /* LaunchScreen.storyboard */,
 				C9F9E6E72CB0FD2000930A6E /* Info.plist */,
+				C9F9E7092CB2422700930A6E /* TabBarViewController.swift */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F9E70A2CB2422800930A6E /* TabBarViewController.swift in Sources */,
 				C9F9E6DE2CB0FD1F00930A6E /* ViewController.swift in Sources */,
 				C9F9E6DA2CB0FD1F00930A6E /* AppDelegate.swift in Sources */,
 				C9F9E6DC2CB0FD1F00930A6E /* SceneDelegate.swift in Sources */,
