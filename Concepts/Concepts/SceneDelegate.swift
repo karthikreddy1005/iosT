@@ -23,8 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //        window?.rootViewController = ApiViewController()
         // Create a new UIWindow instance and assign it to the window property
         window = UIWindow(windowScene: windowScene)
-        let searchVC = SearchViewController()
-        let newVC = UINavigationController(rootViewController: searchVC)
+//        let searchVC = SearchViewController()
+        let vc = ClosureViewController()
+        let newVC = UINavigationController(rootViewController: vc)
         
         window?.rootViewController = newVC
         
