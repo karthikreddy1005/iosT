@@ -1,0 +1,6 @@
+# Ignore CocoaPods files
+Podfile
+Podfile.lock
+Pods/
+*.xcuserstate
+xcuserdata/
