@@ -23,11 +23,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //        window?.rootViewController = ApiViewController()
         // Create a new UIWindow instance and assign it to the window property
         window = UIWindow(windowScene: windowScene)
-//        let searchVC = SearchViewController()
-        let vc = ClosureViewController()
-        let newVC = UINavigationController(rootViewController: vc)
+        //        let searchVC = SearchViewController()
+        //        let vc = ClosureViewController()
+        //        let newVC = UINavigationController(rootViewController: vc)
+        //
+        //        window?.rootViewController = newVC
         
-        window?.rootViewController = newVC
+        
+        // Create instance of the FirstViewController
+        let firstVC = FirstViewController()
+        
+        // Create instance of the SecondViewController
+//        let secondVC = SecondViewController()
+        
+        // Set up a navigation controller to manage both view controllers
+        let navigationController = UINavigationController(rootViewController: firstVC)
+//        navigationController.viewControllers = [firstVC, secondVC] // Add both view controllers
+        
+        // Make the navigation controller the root view controller
+        window?.rootViewController = navigationController
         
         // Make the window visible
         window?.makeKeyAndVisible()
