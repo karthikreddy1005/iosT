@@ -19,6 +19,7 @@
 		C97440F02CB2E8D80044A5EB /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97440EF2CB2E8D80044A5EB /* ClosureViewController.swift */; };
 		C97440F32CB2EE180044A5EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97440F22CB2EE180044A5EB /* FirstViewController.swift */; };
 		C97440F52CB2EE2B0044A5EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97440F42CB2EE2B0044A5EB /* SecondViewController.swift */; };
+		C97F78122CB577CC00972BBD /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F78112CB577CC00972BBD /* StorageViewController.swift */; };
 		C9F9E6DA2CB0FD1F00930A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6D92CB0FD1F00930A6E /* AppDelegate.swift */; };
 		C9F9E6DC2CB0FD1F00930A6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6DB2CB0FD1F00930A6E /* SceneDelegate.swift */; };
 		C9F9E6DE2CB0FD1F00930A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F9E6DD2CB0FD1F00930A6E /* ViewController.swift */; };
@@ -70,6 +71,7 @@
 		C97440EF2CB2E8D80044A5EB /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 		C97440F22CB2EE180044A5EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C97440F42CB2EE2B0044A5EB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C97F78112CB577CC00972BBD /* StorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
 		C9F9E6D62CB0FD1F00930A6E /* Concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9E6D92CB0FD1F00930A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F9E6DB2CB0FD1F00930A6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +196,14 @@
 			path = NotificationExample;
 			sourceTree = "<group>";
 		};
+		C97F78102CB577BC00972BBD /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C97F78112CB577CC00972BBD /* StorageViewController.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		C9F9E6CD2CB0FD1F00930A6E = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +229,7 @@
 		C9F9E6D82CB0FD1F00930A6E /* Concepts */ = {
 			isa = PBXGroup;
 			children = (
+				C97F78102CB577BC00972BBD /* Storage */,
 				C97440F12CB2ECAF0044A5EB /* NotificationExample */,
 				C97440EE2CB2E8C80044A5EB /* Closure */,
 				C97440EB2CB2E2CE0044A5EB /* CachingExample */,
@@ -516,6 +527,7 @@
 				C9F9E6DA2CB0FD1F00930A6E /* AppDelegate.swift in Sources */,
 				C97440EA2CB2D4C90044A5EB /* SearchViewController.swift in Sources */,
 				C97440ED2CB2E2E30044A5EB /* CacheViewController.swift in Sources */,
+				C97F78122CB577CC00972BBD /* StorageViewController.swift in Sources */,
 				C9F9E7112CB2568C00930A6E /* ProfileViewController.swift in Sources */,
 				C9F9E6DC2CB0FD1F00930A6E /* SceneDelegate.swift in Sources */,
 				C9F9E70F2CB2567D00930A6E /* SettingsViewController.swift in Sources */,
