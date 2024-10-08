@@ -32,12 +32,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Create instance of the FirstViewController
         let firstVC = FirstViewController()
+        let storageVc = StorageViewController()
         
         // Create instance of the SecondViewController
 //        let secondVC = SecondViewController()
         
         // Set up a navigation controller to manage both view controllers
-        let navigationController = UINavigationController(rootViewController: firstVC)
+        let navigationController = UINavigationController(rootViewController: storageVc)
 //        navigationController.viewControllers = [firstVC, secondVC] // Add both view controllers
         
         // Make the navigation controller the root view controller
